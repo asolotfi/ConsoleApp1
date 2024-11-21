@@ -44,5 +44,8 @@ namespace ConsoleApp1
 
         [Column(TypeName = "ntext")]
         public string? HomePage { get; set; }
+        public int MyProperty { get; set; }
+
+        public ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }

@@ -58,5 +58,6 @@ namespace ConsoleApp1
 
         [ForeignKey("ReportsTo")]
         public List<Territory> territories { get; set; }
+        public List<Order> orders { get; set; }
     }
 }

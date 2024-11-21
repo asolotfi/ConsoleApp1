@@ -26,5 +26,7 @@ namespace ConsoleApp1
 
         [ForeignKey("ProductID")]
         public Product Product { get; set; }
+   
+    
     }
 }

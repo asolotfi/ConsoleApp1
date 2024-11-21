@@ -7,7 +7,7 @@ namespace ConsoleApp1
     public class Category
     {
         [Key]
-        public int CategoryID { get; set; }
+        public int Id{ get; set; }
 
         [Required]
         [StringLength(15)]

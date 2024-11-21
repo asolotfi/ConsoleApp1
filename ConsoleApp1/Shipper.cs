@@ -15,5 +15,6 @@ namespace ConsoleApp1
 
         [StringLength(24)]
         public string? Phone { get; set; }
+        public List<Order> orders {get;set;}
     }
 }
